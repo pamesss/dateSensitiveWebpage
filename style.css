@@ -1,0 +1,65 @@
+#skyColor {
+    margin: 0;
+    background-color: rgb(2, 1, 44);
+    overflow: hidden;
+    /**
+    5AM - rgb(254, 225, 151)
+    8AM - rgb(182, 249, 255)
+    1PM - rgb(58, 154, 233)
+    4PM - rgb(253, 102, 036)
+    7PM - rgb(81, 23, 95)
+    11PM - rgb(2, 1, 44)
+    */
+}
+
+#box {
+    color: white;
+    margin: 6vw auto;
+    max-width: 45vw;
+    min-width: 330px;
+    text-align: center;
+}
+
+#todayDate {
+    display: block;
+    font-size: 3rem;
+}
+
+#userGreeting {
+    display: block;
+    font-size: 2.5rem;
+}
+
+#liveClock {
+    display: block;
+    font-size: 12rem;
+    width: inherit;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    #liveClock {
+        font-size: 6rem;
+    }
+    #cuteMessage {
+        margin-top: 50%;
+    }
+}
+
+#cuteMessage {
+    display: block;
+    margin-top: 38%;
+    font-size: 2.2rem;
+
+}
+
+#credits {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 1%;
+    border-top: white solid 1px;
+    color: white;
+    font-size: 1rem;
+}
