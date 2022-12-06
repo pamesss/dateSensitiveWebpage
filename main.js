@@ -76,6 +76,5 @@ if (h > 12) {
 
 //estilo dos divs de acordo com a hora do dia
 
-
-}
 setTimeout(startTime, 1000);
+}
