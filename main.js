@@ -9,45 +9,45 @@ let userYear = date.getFullYear();
 //convertendo a lista do mês para strings
 switch (userMonth) {
   case 1:
-    userMonth = "Janeiro";
+    userMonth = "January";
     break;
   case 2:
-    userMonth = "Fevereiro";
+    userMonth = "February";
     break;
   case 3:
-    userMonth = "Março";
+    userMonth = "March";
     break;
   case 4:
-    userMonth = "Abril";
+    userMonth = "April";
     break;
   case 5:
-    userMonth = "Maio";
+    userMonth = "May";
     break;
   case 6:
-    userMonth = "Junho";
+    userMonth = "June";
     break;
   case 7:
-    userMonth = "Julho";
+    userMonth = "July";
     break;
   case 8:
-    userMonth = "Agosto";
+    userMonth = "August";
     break;
   case 9:
-    userMonth = "Setembro";
+    userMonth = "September";
     break;
   case 10:
-    userMonth = "Outubro";
+    userMonth = "October";
     break;
   case 11:
-    userMonth = "Novembro";
+    userMonth = "November";
     break;
   case 12:
-    userMonth = "Dezembro";
+    userMonth = "December";
     break;
 }
 
 //adiciona o calendário ao HTML
-let currentDate = `${userDay} de ${userMonth}, ${userYear}`;
+let currentDate = `${userMonth} ${userDay}, ${userYear}`;
 document.getElementById("userDate").innerHTML = currentDate;
 
 //variaveis para o relógio
