@@ -60,6 +60,7 @@ body {
 #grid {
   display: grid;
   grid-template-columns: 0.46fr 0.2fr;
+  grid-template-rows: 0.2fr 0.2fr 0.2fr;
   grid-auto-flow: row;
   grid-template-areas:
     "clock seconds"
@@ -68,6 +69,8 @@ body {
 }
 
 #clock {
+  display: flex;
+  align-items: center;
   grid-area: clock;
   font-size: 7em;
   font-family: 'Barlow', sans-serif;
@@ -104,6 +107,7 @@ body {
 
 #cuteMessage {
   position: absolute;
+  padding: 0 5vw;
   bottom: 5%;
   font-size: 2em;
   font-family: 'Barlow', sans-serif;
