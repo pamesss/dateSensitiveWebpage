@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Everything is awesome!</title>
-    
-</head>
-<body onload="startTime()">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A beginner's project putting in practice @pamesss's knowledge of HTML, CSS, JavaScript and responsive websites."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Time.Now</title>
+  </head>
+  <body onload="startTime()">
     <div id="container">
       <div id="upperRow">
-      <span id="userGreeting">Good Morning!</span><a id="credits" href="#">@pamesss</a>
+        <span id="userGreeting">Good Morning!</span
+        ><a id="credits" href="https://github.com/pamesss">@pamesss</a>
       </div>
       <div id="lowerRow">
+        <!-- <label for="switch">
+          <input id="switch" onclick="toggleMode()" type="checkbox">
+        </label> -->
         <div id="grid">
           <span id="clock">00:00</span>
           <span id="clockSeconds">00</span>
-          <span id="clockAmPm">XX</span>
+          <span id="clockAmPm">AM</span>
           <span id="userDate">00/00, 0000</span>
         </div>
-            
       </div>
-      <div id="cuteMessage">msg placeholder</div>
+      <div id="cuteMessage"></div>
     </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
