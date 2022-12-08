@@ -52,7 +52,7 @@ let currentDate = `${userMonth} ${userDay}, ${userYear}`;
 document.getElementById("userDate").innerHTML = currentDate;
 
 //variaveis para o relógio
-let h = 20;
+let h = date.getHours();
 let m = date.getMinutes();
 let s = date.getSeconds();
 let amOrPm = document.getElementById('clockAmPm');
